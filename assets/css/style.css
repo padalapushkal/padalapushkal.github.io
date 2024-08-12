@@ -381,7 +381,7 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-me .content h3 {
+/* .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #1c7d32;
@@ -404,7 +404,52 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+} */
+/* Section Title */
+.about-me .content h3 {
+  font-weight: 700;
+  font-size: 1.6rem; /* Adjusted for better scalability */
+  color: #e74c3c; /* Vibrant red for a striking appearance */
+  margin-bottom: 20px; /* Spacing below the heading */
 }
+
+/* Unordered List */
+.about-me .content ul {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0; /* Remove padding */
+  margin: 0; /* Remove margin for better control */
+}
+
+/* List Items */
+.about-me .content ul li {
+  padding-bottom: 12px; /* Slightly increased space between items */
+  font-size: 1rem; /* Standard font size for readability */
+  color: #3498db; /* Bright blue for list items */
+  display: flex; /* Use flexbox for icon and text alignment */
+  align-items: center; /* Center items vertically */
+}
+
+/* List Item Icons */
+.about-me .content ul i {
+  font-size: 1.2rem; /* Slightly larger for visibility */
+  color: #e67e22; /* Bright orange for a contrasting effect */
+  margin-right: 10px; /* Space between icon and text */
+}
+
+/* Paragraphs */
+.about-me .content p {
+  font-size: 1.1rem; /* Standard font size for paragraphs */
+  line-height: 1.6; /* Increased line height for readability */
+  color: #2ecc71; /* Fresh green for body text */
+  margin-top: 20px; /* Space above paragraphs */
+}
+
+/* Ensure no bottom margin on the last paragraph */
+.about-me .content p:last-child {
+  margin-bottom: 0;
+}
+
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -751,6 +796,8 @@ section .container {
   bottom: 15px;
   right: 15px;
 }
+
+
 
 
 
